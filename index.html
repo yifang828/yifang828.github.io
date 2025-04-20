@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yifangchen homepage</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav>
+        <div class="nav-content">
+            <h1></h1>
+            <ul>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#projects">作品集</a></li>
+                <li><a href="#contact">聯絡方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 個人介紹區 -->
+    <section id="about">
+        <div class="container">
+            <h2>關於我</h2>
+            <p>我是陳逸芳，目前是一位電商後端軟體工程師，這個頁面主要是呈現 LLM side-project</p>
+            </br>
+            </br>
+            <div class="skills">
+                <h3>技能專長</h3>
+                <ul>
+                    <p>java, spring boot, git, jenkins, Apache solr, PostgreSQL, GCP Big Query, ELK</p>
+                    <!-- 添加更多技能 -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示區 -->
+    <section id="projects">
+        <div class="container">
+            <h2>作品集</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/github.png" alt="專案1">
+                    <h3>ASR & Summarization</h3>
+                    <p>針對美國總統川普4/3(04:00 GMT+8)對等關稅記者會音檔，使用 whisper 執行語音轉文字 ASR(Automatic Speech Recognition)，並根據轉出來的文本做摘要(summarization)</p>
+                    <a href="https://github.com/yifang828/ASR-and-summarization/tree/main" target="_blank">查看專案</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/github.png" alt="專案1">
+                    <h3>大語言模型gemini解簡單數學應用問題</h3>
+                    <p>math_problem_with_gemini</p>
+                    </br>
+                    </br>
+                    </br>
+                    <a href="https://github.com/yifang828/math_problem_with_gemini/tree/main" target="_blank">查看專案</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/github.png" alt="專案1">
+                    <h3>Fine-tune Model Albert (transformer model)</h3>
+                    <p>使用事實查核網站資料fine-tune Albert (transformer model)，使他成為能夠判斷假新聞的模型</p>
+                    <a href="https://github.com/yifang828/mygopen_albert" target="_blank">查看專案</a>
+                </div>
+                <!-- 添加更多專案卡片 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡方式 -->
+    <section id="contact">
+        <div class="container">
+            <h2>聯絡方式</h2>
+            <div class="contact-info">
+                <p>Email: yifang828@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 yifangchen. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
